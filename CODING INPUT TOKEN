@@ -1,0 +1,24 @@
+package selfProgramming;
+import java.util.Scanner;
+public class InputTokens {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int miles;
+        double gallons, mpg;
+        
+        @SuppressWarnings("resource")
+		Scanner scan = new Scanner (System.in);
+        System.out.print ("Enter the number of miles is : ");
+        miles = scan.nextInt();
+        
+        System.out.print ("Enter the gallons of fuel used is : ");
+        gallons = scan.nextDouble();
+        
+        mpg = miles / gallons;
+        
+        System.out.println("Miles Per Gallon is: " + mpg);
+	}
+	
+	
