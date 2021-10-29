@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class CodingMathsClass {
+
+	public static void main(String[] args) {
+		int b = 10;
+		int a = 3;
+		int c = 5;
+		
+		// TODO Auto-generated method stub
+        double x =((-b + Math.sqrt(b * b - 4 * a * c)) / (2 *a));
+        System.out.println(x);
+	}
+
+}
